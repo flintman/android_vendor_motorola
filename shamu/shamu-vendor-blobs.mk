@@ -232,11 +232,6 @@ PRODUCT_COPY_FILES += \
     vendor/moto/shamu/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
     vendor/moto/shamu/proprietary/bin/diag_klog:system/bin/diag_klog \
     vendor/moto/shamu/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
-    vendor/moto/shamu/proprietary/bin/diag_qshrink4_daemon:system/bin/diag_qshrink4_daemon \
-    vendor/moto/shamu/proprietary/bin/PktRspTest:system/bin/PktRspTest \
-    vendor/moto/shamu/proprietary/bin/ramdump:system/bin/ramdump \
-    vendor/moto/shamu/proprietary/bin/rundiag:system/bin/rundiag \
-    vendor/moto/shamu/proprietary/bin/test_diag:system/bin/test_diag \
     vendor/moto/shamu/proprietary/etc/diag/mdm/FIT_V15_audio.cfg:system/etc/diag/mdm/FIT_V15_audio.cfg \
     vendor/moto/shamu/proprietary/etc/diag/mdm/FIT_V15.cfg:system/etc/diag/mdm/FIT_V15.cfg \
     vendor/moto/shamu/proprietary/etc/diag/mdm/sensors_qxdm.cfg:system/etc/diag/mdm/sensors_qxdm.cfg \
@@ -327,25 +322,10 @@ PRODUCT_COPY_FILES += \
     vendor/moto/shamu/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
     vendor/moto/shamu/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/moto/shamu/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/moto/shamu/proprietary/bin/qmi-framework-tests/qmi_ping_clnt_test_0000:system/bin/qmi-framework-tests/qmi_ping_clnt_test_0000 \
-    vendor/moto/shamu/proprietary/bin/qmi-framework-tests/qmi_ping_clnt_test_0001:system/bin/qmi-framework-tests/qmi_ping_clnt_test_0001 \
-    vendor/moto/shamu/proprietary/bin/qmi-framework-tests/qmi_ping_clnt_test_1000:system/bin/qmi-framework-tests/qmi_ping_clnt_test_1000 \
-    vendor/moto/shamu/proprietary/bin/qmi-framework-tests/qmi_ping_clnt_test_1001:system/bin/qmi-framework-tests/qmi_ping_clnt_test_1001 \
-    vendor/moto/shamu/proprietary/bin/qmi-framework-tests/qmi_ping_clnt_test_2000:system/bin/qmi-framework-tests/qmi_ping_clnt_test_2000 \
-    vendor/moto/shamu/proprietary/bin/qmi-framework-tests/qmi_ping_svc:system/bin/qmi-framework-tests/qmi_ping_svc \
-    vendor/moto/shamu/proprietary/bin/qmi-framework-tests/qmi_ping_test:system/bin/qmi-framework-tests/qmi_ping_test \
-    vendor/moto/shamu/proprietary/bin/qmi-framework-tests/qmi_test_service_clnt_test_0000:system/bin/qmi-framework-tests/qmi_test_service_clnt_test_0000 \
-    vendor/moto/shamu/proprietary/bin/qmi-framework-tests/qmi_test_service_clnt_test_0001:system/bin/qmi-framework-tests/qmi_test_service_clnt_test_0001 \
-    vendor/moto/shamu/proprietary/bin/qmi-framework-tests/qmi_test_service_clnt_test_1000:system/bin/qmi-framework-tests/qmi_test_service_clnt_test_1000 \
-    vendor/moto/shamu/proprietary/bin/qmi-framework-tests/qmi_test_service_clnt_test_1001:system/bin/qmi-framework-tests/qmi_test_service_clnt_test_1001 \
-    vendor/moto/shamu/proprietary/bin/qmi-framework-tests/qmi_test_service_clnt_test_2000:system/bin/qmi-framework-tests/qmi_test_service_clnt_test_2000 \
-    vendor/moto/shamu/proprietary/bin/qmi-framework-tests/qmi_test_service_test:system/bin/qmi-framework-tests/qmi_test_service_test \
-    vendor/moto/shamu/proprietary/etc/qmi_fw.conf:system/etc/qmi_fw.conf \
     vendor/moto/shamu/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/moto/shamu/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/moto/shamu/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/moto/shamu/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
-    vendor/moto/shamu/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/moto/shamu/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/moto/shamu/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
     vendor/moto/shamu/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
@@ -359,6 +339,7 @@ PRODUCT_COPY_FILES += \
     vendor/moto/shamu/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/moto/shamu/proprietary/bin/ks:system/bin/ks \
     vendor/moto/shamu/proprietary/bin/mdm_helper:system/bin/mdm_helper \
+    vendor/moto/shamu/proprietary/bin/mdm_helper_proxy:system/bin/mdm_helper_proxy \
     vendor/moto/shamu/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/moto/shamu/proprietary/bin/qmi_motext_hook:system/bin/qmi_motext_hook \
     vendor/moto/shamu/proprietary/bin/qmuxd:system/bin/qmuxd \
@@ -418,5 +399,4 @@ PRODUCT_COPY_FILES += \
     vendor/moto/shamu/proprietary/vendor/firmware/aonvr1.bin:system/vendor/firmware/aonvr1.bin \
     vendor/moto/shamu/proprietary/vendor/firmware/aonvr2.bin:system/vendor/firmware/aonvr2.bin \
     vendor/moto/shamu/proprietary/vendor/firmware/bcm20795_firmware.ncd:system/vendor/firmware/bcm20795_firmware.ncd \
-    vendor/moto/shamu/proprietary/vendor/firmware/bcm4354A2.hcd:system/vendor/firmware/bcm4354A2.hcd \
-    vendor/moto/shamu/proprietary/xbin/wlutil:system/xbin/wlutil
+    vendor/moto/shamu/proprietary/vendor/firmware/bcm4354A2.hcd:system/vendor/firmware/bcm4354A2.hcd
