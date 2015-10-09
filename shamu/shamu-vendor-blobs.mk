@@ -86,7 +86,6 @@ PRODUCT_COPY_FILES := \
     vendor/moto/shamu/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
     vendor/moto/shamu/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
     vendor/moto/shamu/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
-    vendor/moto/shamu/proprietary/etc/nfcee_access.xml:system/etc/nfcee_access.xml \
     vendor/moto/shamu/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     vendor/moto/shamu/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/moto/shamu/proprietary/etc/thermal-engine-shamu.conf:system/etc/thermal-engine-shamu.conf \
