@@ -124,7 +124,6 @@ PRODUCT_COPY_FILES := \
     vendor/moto/shamu/proprietary/lib/libadspd.so:system/lib/libadspd.so \
     vendor/moto/shamu/proprietary/lib/librecoglib.so:system/lib/librecoglib.so \
     vendor/moto/shamu/proprietary/lib/libsupermodel.so:system/lib/libsupermodel.so \
-    vendor/moto/shamu/proprietary/lib/libxml2.so:system/lib/libxml2.so \
     vendor/moto/shamu/proprietary/lib/soundfx/libfmas.so:system/lib/soundfx/libfmas.so \
     vendor/moto/shamu/proprietary/lib/soundfx/libqcomvisualizer.so:system/lib/soundfx/libqcomvisualizer.so \
     vendor/moto/shamu/proprietary/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
