@@ -1,4 +1,4 @@
-# Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2015 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -55,3 +55,10 @@ PRODUCT_PACKAGES += \
 # Prebuilt vendor/libs needed for compilation
 PRODUCT_PACKAGES += \
     libtime_genoff
+
+# Symlinks
+PRODUCT_PACKAGES += \
+    libimsmedia_jni.so \
+    libimscamera_jni.so \
+    libdmengine.so \
+    libdmjavaplugin.so
