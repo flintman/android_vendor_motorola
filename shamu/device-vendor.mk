@@ -23,7 +23,6 @@ PRODUCT_PACKAGES += \
     HiddenMenu \
     ims \
     TimeService \
-    Tycho \
     VZWAPNLib
 
 # Prebuilt jars
@@ -45,8 +44,6 @@ PRODUCT_PACKAGES += \
     DCMO \
     DiagMon \
     DMService \
-    GCS \
-    HotwordEnrollment \
     LifetimeData \
     MotoSignatureApp \
     SprintDM \
