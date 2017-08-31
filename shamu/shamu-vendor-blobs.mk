@@ -100,6 +100,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu/proprietary/lib/soundfx/libspeakerbundle.so:system/lib/soundfx/libspeakerbundle.so \
     vendor/motorola/shamu/proprietary/lib/libadspd-jni.so:system/lib/libadspd-jni.so \
     vendor/motorola/shamu/proprietary/lib/libadspd.so:system/lib/libadspd.so \
+    vendor/motorola/shamu/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
+    vendor/motorola/shamu/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
     vendor/motorola/shamu/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
     vendor/motorola/shamu/proprietary/lib/libdetectmodem.so:system/lib/libdetectmodem.so \
     vendor/motorola/shamu/proprietary/lib/libdmengine.so:system/lib/libdmengine.so \
@@ -107,6 +109,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu/proprietary/lib/libflacencoder.so:system/lib/libflacencoder.so \
     vendor/motorola/shamu/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/motorola/shamu/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
+    vendor/motorola/shamu/proprietary/lib/libldacBT_enc.so:system/lib/libldacBT_enc.so \
     vendor/motorola/shamu/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/motorola/shamu/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/motorola/shamu/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
