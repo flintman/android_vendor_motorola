@@ -20,16 +20,10 @@ PRODUCT_COPY_FILES += \
     vendor/moto/potter/proprietary/bin/akmd09912:system/bin/akmd09912 \
     vendor/moto/potter/proprietary/bin/batt_health:system/bin/batt_health \
     vendor/moto/potter/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/moto/potter/proprietary/bin/cnd:system/bin/cnd \
     vendor/moto/potter/proprietary/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
     vendor/moto/potter/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/moto/potter/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
-    vendor/moto/potter/proprietary/bin/imscmservice:system/bin/imscmservice \
-    vendor/moto/potter/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
-    vendor/moto/potter/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/moto/potter/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/moto/potter/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/moto/potter/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/moto/potter/proprietary/bin/motosh:system/bin/motosh \
     vendor/moto/potter/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/moto/potter/proprietary/bin/pm-proxy:system/bin/pm-proxy \
