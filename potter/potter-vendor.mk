@@ -22,6 +22,10 @@ PRODUCT_COPY_FILES += \
     vendor/moto/potter/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/moto/potter/proprietary/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
     vendor/moto/potter/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/moto/potter/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
+    vendor/moto/potter/proprietary/bin/imscmservice:system/bin/imscmservice \
+    vendor/moto/potter/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
+    vendor/moto/potter/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/moto/potter/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/moto/potter/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/moto/potter/proprietary/bin/motosh:system/bin/motosh \
