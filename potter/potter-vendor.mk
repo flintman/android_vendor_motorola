@@ -895,9 +895,12 @@ PRODUCT_COPY_FILES += \
     vendor/moto/potter/proprietary/vendor/lib/libsdm-disp-apis.so:system/vendor/lib/libsdm-disp-apis.so \
     vendor/moto/potter/proprietary/vendor/lib/libsdmextension.so:system/vendor/lib/libsdmextension.so \
     vendor/moto/potter/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
+    vendor/moto/potter/proprietary/lib/libmemalloc.so:system/lib/libmemalloc.so \
     vendor/moto/potter/proprietary/vendor/lib/libprotobuf-cpp-shit.so:system/vendor/lib/libprotobuf-cpp-shit.so \
-    vendor/moto/potter/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so
-
+    vendor/moto/potter/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
+    vendor/moto/potter/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/moto/potter/proprietary/vendor/lib/libpanelmode.so:system/vendor/lib/libpanelmode.so \
+    vendor/moto/potter/proprietary/vendor/lib/libbson.so:system/vendor/lib/libbson.so
 PRODUCT_PACKAGES += \
     TimeService \
     datastatusnotification \
