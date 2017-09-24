@@ -94,10 +94,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu/proprietary/lib/hw/audio.motvr.default.so:system/lib/hw/audio.motvr.default.so \
     vendor/motorola/shamu/proprietary/lib/hw/audio.primary.msm8084.so:system/lib/hw/audio.primary.msm8084.so \
     vendor/motorola/shamu/proprietary/lib/hw/sound_trigger.primary.shamu.so:system/lib/hw/sound_trigger.primary.shamu.so \
-    vendor/motorola/shamu/proprietary/lib/soundfx/libfmas.so:system/lib/soundfx/libfmas.so \
-    vendor/motorola/shamu/proprietary/lib/soundfx/libqcomvisualizer.so:system/lib/soundfx/libqcomvisualizer.so \
-    vendor/motorola/shamu/proprietary/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
-    vendor/motorola/shamu/proprietary/lib/soundfx/libspeakerbundle.so:system/lib/soundfx/libspeakerbundle.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/soundfx/libfmas.so:system/lib/soundfx/libfmas.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/soundfx/libqcomvisualizer.so:system/lib/soundfx/libqcomvisualizer.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/soundfx/libspeakerbundle.so:system/lib/soundfx/libspeakerbundle.so \
     vendor/motorola/shamu/proprietary/lib/libadspd-jni.so:system/lib/libadspd-jni.so \
     vendor/motorola/shamu/proprietary/lib/libadspd.so:system/lib/libadspd.so \
     vendor/motorola/shamu/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
