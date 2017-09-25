@@ -135,7 +135,7 @@ PRODUCT_COPY_FILES += \
     vendor/moto/potter/proprietary/lib/hw/camera.vendor.msm8953.so:system/lib/hw/camera.vendor.msm8953.so \
     vendor/moto/potter/proprietary/lib/hw/fingerprint.msm8953.so:system/vendor/lib/hw/fingerprint.vendor.msm8953.so \
     vendor/moto/potter/proprietary/lib/hw/sensorhub.msm8953.so:system/lib/hw/sensorhub.msm8953.so \
-    vendor/moto/potter/proprietary/lib/hw/sensors.msm8953.so:system/lib/sensors.moto.so \
+    vendor/moto/potter/proprietary/lib/hw/sensors.msm8953.so:system/lib/hw/sensors.msm8953.so \
     vendor/moto/potter/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/moto/potter/proprietary/lib/lib_motsensorlistener.so:system/lib/lib_motsensorlistener.so \
     vendor/moto/potter/proprietary/lib/lib_mottof.so:system/lib/lib_mottof.so \
@@ -898,6 +898,7 @@ PRODUCT_PACKAGES += \
     TimeService \
     datastatusnotification \
     embms \
+    CNEService \
     colorservice \
     com.qti.location.sdk \
     com.qti.snapdragon.sdk.display \
@@ -906,6 +907,8 @@ PRODUCT_PACKAGES += \
     imscmlibrary \
     qcrilhook \
     com.qualcomm.location \
+    ims \
+    imssettings \
     qcrilmsgtunnel \
     izat.xt.srv \
     qti-telephony-common \
