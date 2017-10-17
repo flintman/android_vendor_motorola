@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/moto/potter/proprietary/bin/batt_health:system/bin/batt_health \
     vendor/moto/potter/proprietary/bin/cnd:system/bin/cnd \
     vendor/moto/potter/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/moto/potter/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
     vendor/moto/potter/proprietary/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
     vendor/moto/potter/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/moto/potter/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
