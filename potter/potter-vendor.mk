@@ -879,16 +879,15 @@ PRODUCT_COPY_FILES += \
     vendor/moto/potter/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/moto/potter/proprietary/vendor/lib/libsdm-color.so:system/vendor/lib/libsdm-color.so \
     vendor/moto/potter/proprietary/vendor/lib/libsdm-diag.so:system/vendor/lib/libsdm-diag.so \
-    vendor/moto/potter/proprietary/vendor/lib/libsdm-disp-apis.so:system/vendor/lib/libsdm-disp-apis.so \
+    vendor/moto/potter/proprietary/vendor/lib/libsdm-disp-vndapis.so:system/vendor/lib/libsdm-disp-vndapis.so \
     vendor/moto/potter/proprietary/vendor/lib/libsdmextension.so:system/vendor/lib/libsdmextension.so \
+    vendor/moto/potter/proprietary/vendor/lib/libqseed3.so:system/vendor/lib/libqseed3.so \
+    vendor/moto/potter/proprietary/vendor/lib/libhdr_tm.so:system/vendor/lib/libhdr_tm.so \
+    vendor/moto/potter/proprietary/vendor/lib/libtinyxml2_1.so:system/vendor/lib/libtinyxml2_1.so \
     vendor/moto/potter/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
     vendor/moto/potter/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
     vendor/moto/potter/proprietary/lib/libjson.so:system/lib/libjson.so \
     vendor/moto/potter/proprietary/lib/libuiblur.so:system/lib/libuiblur.so \
-    vendor/moto/potter/proprietary/vendor/lib/libsdm-color.so:system/vendor/lib/libsdm-color.so \
-    vendor/moto/potter/proprietary/vendor/lib/libsdm-diag.so:system/vendor/lib/libsdm-diag.so \
-    vendor/moto/potter/proprietary/vendor/lib/libsdm-disp-apis.so:system/vendor/lib/libsdm-disp-apis.so \
-    vendor/moto/potter/proprietary/vendor/lib/libsdmextension.so:system/vendor/lib/libsdmextension.so \
     vendor/moto/potter/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
     vendor/moto/potter/proprietary/lib/libmemalloc.so:system/lib/libmemalloc.so \
     vendor/moto/potter/proprietary/vendor/lib/libprotobuf-cpp-shit.so:system/vendor/lib/libprotobuf-cpp-shit.so \
