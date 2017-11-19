@@ -911,8 +911,114 @@ PRODUCT_COPY_FILES += \
     vendor/moto/potter/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/moto/potter/proprietary/vendor/lib/libdrmutils.so:system/vendor/lib/libdrmutils.so \
     vendor/moto/potter/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
-    vendor/moto/potter/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
- 
+    vendor/moto/potter/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/moto/potter/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
+    vendor/moto/potter/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
+    vendor/moto/potter/proprietary/lib64/libperipheral_client.so:system/lib64/libperipheral_client.so \
+    vendor/moto/potter/proprietary/lib64/vendor.display.color@1.0.so:system/lib64/vendor.display.color@1.0.so \
+    vendor/moto/potter/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
+    vendor/moto/potter/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:system/vendor/bin/hw/vendor.display.color@1.0-service \
+    vendor/moto/potter/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:system/vendor/etc/init/vendor.display.color@1.0-service.rc \
+    vendor/moto/potter/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
+    vendor/moto/potter/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
+    vendor/moto/potter/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
+    vendor/moto/potter/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:system/vendor/lib64/egl/libGLESv2_adreno.so \
+    vendor/moto/potter/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
+    vendor/moto/potter/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
+    vendor/moto/potter/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so \
+    vendor/moto/potter/proprietary/vendor/lib64/lib-ims-rcscmjni.so:system/vendor/lib64/lib-ims-rcscmjni.so \
+    vendor/moto/potter/proprietary/vendor/lib64/lib-imsSDP.so:system/vendor/lib64/lib-imsSDP.so \
+    vendor/moto/potter/proprietary/vendor/lib64/lib-imscamera.so:system/vendor/lib64/lib-imscamera.so \
+    vendor/moto/potter/proprietary/vendor/lib64/lib-imsdpl.so:system/vendor/lib64/lib-imsdpl.so \
+    vendor/moto/potter/proprietary/vendor/lib64/lib-imsqimf.so:system/vendor/lib64/lib-imsqimf.so \
+    vendor/moto/potter/proprietary/vendor/lib64/lib-imsrcs.so:system/vendor/lib64/lib-imsrcs.so \
+    vendor/moto/potter/proprietary/vendor/lib64/lib-imsrcscm.so:system/vendor/lib64/lib-imsrcscm.so \
+    vendor/moto/potter/proprietary/vendor/lib64/lib-imsrcscmclient.so:system/vendor/lib64/lib-imsrcscmclient.so \
+    vendor/moto/potter/proprietary/vendor/lib64/lib-imsrcscmservice.so:system/vendor/lib64/lib-imsrcscmservice.so \
+    vendor/moto/potter/proprietary/vendor/lib64/lib-imss.so:system/vendor/lib64/lib-imss.so \
+    vendor/moto/potter/proprietary/vendor/lib64/lib-imsvt.so:system/vendor/lib64/lib-imsvt.so \
+    vendor/moto/potter/proprietary/vendor/lib64/lib-imsxml.so:system/vendor/lib64/lib-imsxml.so \
+    vendor/moto/potter/proprietary/vendor/lib64/lib-rcsimssjni.so:system/vendor/lib64/lib-rcsimssjni.so \
+    vendor/moto/potter/proprietary/vendor/lib64/lib-rcsjni.so:system/vendor/lib64/lib-rcsjni.so \
+    vendor/moto/potter/proprietary/vendor/lib64/lib-rtpcommon.so:system/vendor/lib64/lib-rtpcommon.so \
+    vendor/moto/potter/proprietary/vendor/lib64/lib-rtpcore.so:system/vendor/lib64/lib-rtpcore.so \
+    vendor/moto/potter/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
+    vendor/moto/potter/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libDiagService.so:system/vendor/lib64/libDiagService.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libQtiTether.so:system/vendor/lib64/libQtiTether.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libaptXHD_encoder.so:system/vendor/lib64/libaptXHD_encoder.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libaptX_encoder.so:system/vendor/lib64/libaptX_encoder.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libc2d30-a3xx.so:system/vendor/lib64/libc2d30-a3xx.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libc2d30-a5xx.so:system/vendor/lib64/libc2d30-a5xx.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libc2d30_bltlib.so:system/vendor/lib64/libc2d30_bltlib.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libdiagjni.so:system/vendor/lib64/libdiagjni.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libgpustats.so:system/vendor/lib64/libgpustats.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libhdr_tm.so:system/vendor/lib64/libhdr_tm.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libizat_client_api.so:system/vendor/lib64/libizat_client_api.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
+    vendor/moto/potter/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libldacBT_abr.so:system/vendor/lib64/libldacBT_abr.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libldacBT_enc.so:system/vendor/lib64/libldacBT_enc.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libllvm-qgl.so:system/vendor/lib64/libllvm-qgl.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libmm-color-convertor.so:system/vendor/lib64/libmm-color-convertor.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libmm-hdcpmgr.so:system/vendor/lib64/libmm-hdcpmgr.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libqmi_cci.so:system/vendor/lib64/libqmi_cci.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libqmi_client_helper.so:system/vendor/lib64/libqmi_client_helper.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libqmi_client_qmux.so:system/vendor/lib64/libqmi_client_qmux.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libqmi_common_so.so:system/vendor/lib64/libqmi_common_so.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libqmi_csi.so:system/vendor/lib64/libqmi_csi.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libqmi_csvt_srvc.so:system/vendor/lib64/libqmi_csvt_srvc.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libqseed3.so:system/vendor/lib64/libqseed3.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libqti-at.so:system/vendor/lib64/libqti-at.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libqti-gt.so:system/vendor/lib64/libqti-gt.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libqti-iop.so:system/vendor/lib64/libqti-iop.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libqti-util.so:system/vendor/lib64/libqti-util.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libqti-utils.so:system/vendor/lib64/libqti-utils.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libqti_performance.so:system/vendor/lib64/libqti_performance.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libqtigef.so:system/vendor/lib64/libqtigef.so \
+    vendor/moto/potter/proprietary/vendor/lib64/librcc.so:system/vendor/lib64/librcc.so \
+    vendor/moto/potter/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
+    vendor/moto/potter/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libscalar.so:system/vendor/lib64/libscalar.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libsd_sdk_display.so:system/vendor/lib64/libsd_sdk_display.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libsdm-color.so:system/vendor/lib64/libsdm-color.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libsdm-diag.so:system/vendor/lib64/libsdm-diag.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libsdm-disp-vndapis.so:system/vendor/lib64/libsdm-disp-vndapis.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libsdmcore.so:system/vendor/lib64/libsdmcore.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libsdmextension.so:system/vendor/lib64/libsdmextension.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libsdmutils.so:system/vendor/lib64/libsdmutils.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libtime_genoff.so:system/vendor/lib64/libtime_genoff.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libtinyxml2_1.so:system/vendor/lib64/libtinyxml2_1.so \
+    vendor/moto/potter/proprietary/vendor/lib64/vendor.display.color@1.0_vendor.so:system/vendor/lib64/vendor.display.color@1.0_vendor.so \
+    vendor/moto/potter/proprietary/vendor/lib64/vendor.display.postproc@1.0_vendor.so:system/vendor/lib64/vendor.display.postproc@1.0_vendor.so
 
 PRODUCT_PACKAGES += \
     TimeService \
@@ -933,7 +1039,6 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     izat.xt.srv \
     qti-telephony-common \
-    libtime_genoff \
     atfwd \
     cneapiclient \
     com.qti.dpmframework \
