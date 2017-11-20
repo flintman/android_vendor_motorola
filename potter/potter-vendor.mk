@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/moto/potter/proprietary/bin/cnd:system/bin/cnd \
     vendor/moto/potter/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/moto/potter/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
+    vendor/moto/potter/proprietary/bin/gatekeeperd:system/bin/gatekeeperd \
     vendor/moto/potter/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/moto/potter/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/moto/potter/proprietary/bin/imscmservice:system/bin/imscmservice \
@@ -138,6 +139,7 @@ PRODUCT_COPY_FILES += \
     vendor/moto/potter/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin \
     vendor/moto/potter/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:system/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
     vendor/moto/potter/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
+    vendor/moto/potter/proprietary/lib/android.hardware.biometrics.fingerprint@2.1.so:system/lib/android.hardware.biometrics.fingerprint@2.1.so \
     vendor/moto/potter/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
     vendor/moto/potter/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
     vendor/moto/potter/proprietary/lib/libldacBT_abr.so:system/lib/libldacBT_abr.so \
@@ -188,6 +190,8 @@ PRODUCT_COPY_FILES += \
     vendor/moto/potter/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/moto/potter/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/moto/potter/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/moto/potter/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:system/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
+    vendor/moto/potter/proprietary/vendor/bin/hw/rild:system/vendor/bin/hw/rild \
     vendor/moto/potter/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
     vendor/moto/potter/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/moto/potter/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
