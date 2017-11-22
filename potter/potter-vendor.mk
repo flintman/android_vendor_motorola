@@ -19,7 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/moto/potter/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/moto/potter/proprietary/bin/akmd09912:system/bin/akmd09912 \
     vendor/moto/potter/proprietary/bin/cnd:system/bin/cnd \
-    vendor/moto/potter/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/moto/potter/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
     vendor/moto/potter/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
     vendor/moto/potter/proprietary/bin/gatekeeperd:system/bin/gatekeeperd \
     vendor/moto/potter/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
@@ -255,6 +255,7 @@ PRODUCT_COPY_FILES += \
     vendor/moto/potter/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/moto/potter/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/moto/potter/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/moto/potter/proprietary/vendor/lib/libc2d30-a5xx.so:system/vendor/lib/libc2d30-a5xx.so \
     vendor/moto/potter/proprietary/vendor/lib/libc2d30_bltlib.so:system/vendor/lib/libc2d30_bltlib.so \
     vendor/moto/potter/proprietary/vendor/lib/libcamerabgproc-jni.so:system/vendor/lib/libcamerabgproc-jni.so \
