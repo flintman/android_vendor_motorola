@@ -187,7 +187,6 @@ PRODUCT_COPY_FILES += \
     vendor/moto/potter/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/moto/potter/proprietary/vendor/bin/esepmdaemon:system/vendor/bin/esepmdaemon \
     vendor/moto/potter/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
-    vendor/moto/potter/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/moto/potter/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/moto/potter/proprietary/vendor/bin/qseeproxysampledaemon:system/vendor/bin/qseeproxysampledaemon \
     vendor/moto/potter/proprietary/vendor/bin/qti:system/vendor/bin/qti \
@@ -1048,7 +1047,17 @@ PRODUCT_COPY_FILES += \
     vendor/moto/potter/proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc:system/vendor/etc/init/vendor.qti.gnss@1.0-service.rc \
     vendor/moto/potter/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/moto/potter/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
-
+    vendor/moto/potter/proprietary/vendor/lib64/libqti-gt-prop.so:system/vendor/lib64/libqti-gt-prop.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libqti-iopd-client.so:system/vendor/lib64/libqti-iopd-client.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libqti-iopd.so:system/vendor/lib64/libqti-iopd.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libqti-perfd.so:system/vendor/lib64/libqti-perfd.so \
+    vendor/moto/potter/proprietary/vendor/lib64/vendor.qti.hardware.iop@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.iop@1.0_vendor.so \
+    vendor/moto/potter/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so \
+    vendor/moto/potter/proprietary/vendor/bin/hw/vendor.qti.hardware.iop@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.iop@1.0-service \
+    vendor/moto/potter/proprietary/vendor/etc/init/vendor.qti.hardware.iop@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.iop@1.0-service.rc \
+    vendor/moto/potter/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service \
+    vendor/moto/potter/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc
+    
 PRODUCT_PACKAGES += \
     TimeService \
     datastatusnotification \
@@ -1078,5 +1087,4 @@ PRODUCT_PACKAGES += \
     qti-vzw-ims-internal \
     rcsimssettings \
     tcmclient
-
 
