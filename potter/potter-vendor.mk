@@ -1065,6 +1065,8 @@ PRODUCT_COPY_FILES += \
     vendor/moto/potter/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     vendor/moto/potter/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
     vendor/moto/potter/proprietary/vendor/lib64/libgnsspps.so:system/vendor/lib64/libgnsspps.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libgnss.so:system/vendor/lib64/libgnss.so \
+    vendor/moto/potter/proprietary/vendor/lib/libgnss.so:system/vendor/lib/libgnss.so \
     vendor/moto/potter/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
     vendor/moto/potter/proprietary/vendor/lib64/liblowi_wifihal.so:system/vendor/lib64/liblowi_wifihal.so \
     vendor/moto/potter/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
