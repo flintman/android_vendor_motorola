@@ -177,7 +177,7 @@ PRODUCT_COPY_FILES += \
     vendor/moto/potter/proprietary/lib/libmotimager_utils.so:system/lib/libmotimager_utils.so \
     vendor/moto/potter/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/moto/potter/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
-    vendor/moto/potter/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/moto/potter/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
     vendor/moto/potter/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
     vendor/moto/potter/proprietary/lib/lib_mot_app6_metadata.so:system/lib/lib_mot_app6_metadata.so \
     vendor/moto/potter/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
@@ -1097,8 +1097,27 @@ PRODUCT_COPY_FILES += \
     vendor/moto/potter/proprietary/vendor/lib64/libcneoplookup.so:system/vendor/lib64/libcneoplookup.so \
     vendor/moto/potter/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
     vendor/moto/potter/proprietary/vendor/lib64/libperfgluelayer.so:system/vendor/lib64/libperfgluelayer.so \
-    vendor/moto/potter/proprietary/vendor/lib64/vendor.qti.gnss@1.0_vendor.so:system/vendor/lib64/vendor.qti.gnss@1.0_vendor.so
- 
+    vendor/moto/potter/proprietary/vendor/lib64/vendor.qti.gnss@1.0_vendor.so:system/vendor/lib64/vendor.qti.gnss@1.0_vendor.so \
+    vendor/moto/potter/proprietary/vendor/lib/libOmxAmrDec.so:system/vendor/lib/libOmxAmrDec.so \
+    vendor/moto/potter/proprietary/vendor/lib/libOmxDsdDec.so:system/vendor/lib/libOmxDsdDec.so \
+    vendor/moto/potter/proprietary/vendor/lib/libvpphvx.so:system/vendor/lib/libvpphvx.so \
+    vendor/moto/potter/proprietary/vendor/lib/libOmxVpp.so:system/vendor/lib/libOmxVpp.so \
+    vendor/moto/potter/proprietary/vendor/lib/libvpplibrary.so:system/vendor/lib/libvpplibrary.so \
+    vendor/moto/potter/proprietary/vendor/lib/libvpptestutils.so:system/vendor/lib/libvpptestutils.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libOmxAacDec.so:system/vendor/lib64/libOmxAacDec.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libOmxAlacDec.so:system/vendor/lib64/libOmxAlacDec.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libOmxAlacDecSw.so:system/vendor/lib64/libOmxAlacDecSw.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libOmxAmrwbplusDec.so:system/vendor/lib64/libOmxAmrwbplusDec.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libOmxApeDec.so:system/vendor/lib64/libOmxApeDec.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libOmxApeDecSw.so:system/vendor/lib64/libOmxApeDecSw.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libOmxEvrcDec.so:system/vendor/lib64/libOmxEvrcDec.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libOmxQcelp13Dec.so:system/vendor/lib64/libOmxQcelp13Dec.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libOmxVpp.so:system/vendor/lib64/libOmxVpp.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libvpphvx.so:system/vendor/lib64/libvpphvx.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libvpplibrary.so:system/vendor/lib64/libvpplibrary.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libvpptestutils.so:system/vendor/lib64/libvpptestutils.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libOmxAmrDec.so:system/vendor/lib64/libOmxAmrDec.so
+
 PRODUCT_PACKAGES += \
     TimeService \
     datastatusnotification \
