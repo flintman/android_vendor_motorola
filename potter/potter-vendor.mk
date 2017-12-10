@@ -36,6 +36,8 @@ PRODUCT_COPY_FILES += \
     vendor/moto/potter/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/moto/potter/proprietary/bin/qmi_motext_hook:system/bin/qmi_motext_hook \
     vendor/moto/potter/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
+    vendor/moto/potter/proprietary/vendor/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
+    vendor/moto/potter/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/moto/potter/proprietary/bin/radish:system/bin/radish \
     vendor/moto/potter/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/moto/potter/proprietary/vendor/bin/ssr_setup:system/vendor/bin/ssr_setup \
