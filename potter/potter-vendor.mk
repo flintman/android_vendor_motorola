@@ -1124,6 +1124,7 @@ PRODUCT_COPY_FILES += \
     vendor/moto/potter/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/moto/potter/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
     vendor/moto/potter/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
+    vendor/moto/potter/proprietary/vendor/lib/libgralloc1.so:system/vendor/lib/libgralloc1.so \
     vendor/moto/potter/proprietary/lib/vendor.qti.hardware.fm@1.0.so:system/lib/vendor.qti.hardware.fm@1.0.so \
     vendor/moto/potter/proprietary/lib64/vendor.qti.hardware.fm@1.0.so:system/lib64/vendor.qti.hardware.fm@1.0.so \
     vendor/moto/potter/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so \
