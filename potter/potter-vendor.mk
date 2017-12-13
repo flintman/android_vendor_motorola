@@ -39,6 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/moto/potter/proprietary/vendor/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
     vendor/moto/potter/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/moto/potter/proprietary/bin/radish:system/bin/radish \
+    vendor/moto/potter/proprietary/bin/sensorservice:system/bin/sensorservice \
     vendor/moto/potter/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/moto/potter/proprietary/vendor/bin/ssr_setup:system/vendor/bin/ssr_setup \
     vendor/moto/potter/proprietary/vendor/bin/tftp_server:system/vendor/bin/tftp_server \
