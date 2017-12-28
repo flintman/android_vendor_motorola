@@ -158,8 +158,8 @@ PRODUCT_COPY_FILES += \
     vendor/moto/potter/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
     vendor/moto/potter/proprietary/lib/libcamerabgprocservice.so:system/lib/libcamerabgprocservice.so \
     vendor/moto/potter/proprietary/lib/libcom_fingerprints_service.so:system/lib/libcom_fingerprints_service.so \
-    vendor/moto/potter/proprietary/lib/libdtvhal.so:system/lib/libdtvhal.so \
     vendor/moto/potter/proprietary/lib/libdtvtuner.so:system/lib/libdtvtuner.so \
+    vendor/moto/potter/proprietary/lib64/libdtvtuner.so:system/lib64/libdtvtuner.so \
     vendor/moto/potter/proprietary/lib/libfamily_photo.so:system/lib/libfamily_photo.so \
     vendor/moto/potter/proprietary/lib/libjscore.so:system/lib/libjscore.so \
     vendor/moto/potter/proprietary/lib/libjustshoot.so:system/lib/libjustshoot.so \
@@ -1145,7 +1145,9 @@ PRODUCT_COPY_FILES += \
     vendor/moto/potter/proprietary/vendor/lib64/libGLESv1_CM_adreno.so:system/vendor/lib64/libGLESv1_CM_adreno.so \
     vendor/moto/potter/proprietary/vendor/lib64/libGLESv2_adreno.so:system/vendor/lib64/libGLESv2_adreno.so \
     vendor/moto/potter/proprietary/vendor/lib64/libc2dcolorconvert.so:system/vendor/lib64/libc2dcolorconvert.so \
-    vendor/moto/potter/proprietary/vendor/lib64/libq3dtools_adreno.so:system/vendor/lib64/libq3dtools_adreno.so
+    vendor/moto/potter/proprietary/vendor/lib64/libq3dtools_adreno.so:system/vendor/lib64/libq3dtools_adreno.so \
+    vendor/moto/potter/proprietary/vendor/lib/libdtvhal.so:system/vendor/lib/libdtvhal.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libdtvhal.so:system/vendor/lib64/libdtvhal.so
 
 PRODUCT_PACKAGES += \
     TimeService \
