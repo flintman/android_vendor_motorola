@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/moto/potter/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/moto/potter/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
     vendor/moto/potter/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
-    vendor/moto/potter/proprietary/bin/gatekeeperd:system/bin/gatekeeperd \
     vendor/moto/potter/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/moto/potter/proprietary/vendor/bin/ims_rtp_daemon:system/vendor/bin/ims_rtp_daemon \
     vendor/moto/potter/proprietary/vendor/bin/imscmservice:system/vendor/bin/imscmservice \
@@ -1124,6 +1123,15 @@ PRODUCT_COPY_FILES += \
     vendor/moto/potter/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/moto/potter/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
     vendor/moto/potter/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libGPreqcancel.so:system/vendor/lib64/libGPreqcancel.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libGPreqcancel_svc.so:system/vendor/lib64/libGPreqcancel_svc.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libqisl.so:system/vendor/lib64/libqisl.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
+    vendor/moto/potter/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
+    vendor/moto/potter/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
     vendor/moto/potter/proprietary/vendor/lib/libgralloc1.so:system/vendor/lib/libgralloc1.so \
     vendor/moto/potter/proprietary/lib/vendor.qti.hardware.fm@1.0.so:system/lib/vendor.qti.hardware.fm@1.0.so \
     vendor/moto/potter/proprietary/lib64/vendor.qti.hardware.fm@1.0.so:system/lib64/vendor.qti.hardware.fm@1.0.so \
@@ -1131,6 +1139,7 @@ PRODUCT_COPY_FILES += \
     vendor/moto/potter/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so \
     vendor/moto/potter/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/moto/potter/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so \
+    vendor/moto/potter/proprietary/vendor/lib64/hw/gatekeeper.msm8953.so:system/vendor/lib64/hw/gatekeeper.msm8953.so \
     vendor/moto/potter/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/moto/potter/proprietary/lib64/egl/libGLES_android.so:system/lib64/egl/libGLES_android.so \
     vendor/moto/potter/proprietary/vendor/lib/libEGL_adreno.so:system/vendor/lib/libEGL_adreno.so \
