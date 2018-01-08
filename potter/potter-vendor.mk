@@ -19,9 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/moto/potter/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/moto/potter/proprietary/vendor/bin/akmd09912:system/vendor/bin/akmd09912 \
     vendor/moto/potter/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
-    vendor/moto/potter/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
     vendor/moto/potter/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
-    vendor/moto/potter/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/moto/potter/proprietary/vendor/bin/ims_rtp_daemon:system/vendor/bin/ims_rtp_daemon \
     vendor/moto/potter/proprietary/vendor/bin/imscmservice:system/vendor/bin/imscmservice \
     vendor/moto/potter/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
@@ -256,6 +254,10 @@ PRODUCT_COPY_FILES += \
     vendor/moto/potter/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/moto/potter/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/moto/potter/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
+    vendor/moto/potter/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:system/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
+    vendor/moto/potter/proprietary/vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so:system/vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so \
+    vendor/moto/potter/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:system/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti \
+    vendor/moto/potter/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:system/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/moto/potter/proprietary/vendor/lib/libc2d30-a5xx.so:system/vendor/lib/libc2d30-a5xx.so \
     vendor/moto/potter/proprietary/vendor/lib/libc2d30_bltlib.so:system/vendor/lib/libc2d30_bltlib.so \
     vendor/moto/potter/proprietary/vendor/lib/libcamerabgproc-jni.so:system/vendor/lib/libcamerabgproc-jni.so \
