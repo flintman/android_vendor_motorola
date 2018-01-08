@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES += \
     vendor/moto/potter/proprietary/vendor/bin/akmd09912:system/vendor/bin/akmd09912 \
     vendor/moto/potter/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/moto/potter/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
+    vendor/moto/potter/proprietary/vendor/bin/energy-awareness:system/vendor/bin/energy-awareness \
     vendor/moto/potter/proprietary/vendor/bin/ims_rtp_daemon:system/vendor/bin/ims_rtp_daemon \
     vendor/moto/potter/proprietary/vendor/bin/imscmservice:system/vendor/bin/imscmservice \
     vendor/moto/potter/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
