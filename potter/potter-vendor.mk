@@ -27,7 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/moto/potter/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
     vendor/moto/potter/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/moto/potter/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
-    vendor/moto/potter/proprietary/vendor/bin/motosh:system/vendor/bin/motosh \
     vendor/moto/potter/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
     vendor/moto/potter/proprietary/vendor/bin/pm-proxy:system/vendor/bin/pm-proxy \
     vendor/moto/potter/proprietary/vendor/bin/pm-service:system/vendor/bin/pm-service \
@@ -104,7 +103,6 @@ PRODUCT_COPY_FILES += \
     vendor/moto/potter/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
     vendor/moto/potter/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
     vendor/moto/potter/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
-    vendor/moto/potter/proprietary/etc/firmware/sensorhub-blacklist.txt:system/etc/firmware/sensorhub-blacklist.txt \
     vendor/moto/potter/proprietary/etc/firmware/synaptics-boe-potter-16112102-25d862-potter.tdat:system/etc/firmware/synaptics-boe-potter-16112102-25d862-potter.tdat \
     vendor/moto/potter/proprietary/etc/firmware/synaptics-boe-s3203b-16112102-25d862-potter.tdat:system/etc/firmware/synaptics-boe-s3203b-16112102-25d862-potter.tdat \
     vendor/moto/potter/proprietary/etc/firmware/synaptics-s3508sga-16103104-255c40-albus.tdat:system/etc/firmware/synaptics-s3508sga-16103104-255c40-albus.tdat \
@@ -144,8 +142,6 @@ PRODUCT_COPY_FILES += \
     vendor/moto/potter/proprietary/lib/libldacBT_enc.so:system/lib/libldacBT_enc.so \
     vendor/moto/potter/proprietary/lib/hw/camera.vendor.msm8953.so:system/lib/hw/camera.msm8953.so \
     vendor/moto/potter/proprietary/lib/hw/fingerprint.msm8953.so:system/vendor/lib/hw/fingerprint.vendor.msm8953.so \
-    vendor/moto/potter/proprietary/lib/hw/sensorhub.msm8953.so:system/lib/hw/sensorhub.msm8953.so \
-    vendor/moto/potter/proprietary/lib/hw/sensors.msm8953.so:system/lib/hw/sensors.msm8953.so \
     vendor/moto/potter/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/moto/potter/proprietary/lib/lib_motsensorlistener.so:system/lib/lib_motsensorlistener.so \
     vendor/moto/potter/proprietary/lib/lib_mottof.so:system/lib/lib_mottof.so \
@@ -177,7 +173,6 @@ PRODUCT_COPY_FILES += \
     vendor/moto/potter/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/moto/potter/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
     vendor/moto/potter/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
-    vendor/moto/potter/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
     vendor/moto/potter/proprietary/lib/lib_mot_app6_metadata.so:system/lib/lib_mot_app6_metadata.so \
     vendor/moto/potter/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
     vendor/moto/potter/proprietary/lib/libmotefem_svc.so:system/lib/libmotefem_svc.so \
