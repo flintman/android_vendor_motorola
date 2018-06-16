@@ -38,7 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/moto/shamu/proprietary/bin/radish:system/bin/radish \
     vendor/moto/shamu/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/moto/shamu/proprietary/bin/tcmd_mini:system/bin/tcmd_mini \
-    vendor/moto/shamu/proprietary/bin/thermal-engine:system/bin/thermal-engine \
+    vendor/moto/shamu/proprietary/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/moto/shamu/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/moto/shamu/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/moto/shamu/proprietary/bin/usbhub_init:system/bin/usbhub_init \
@@ -86,7 +86,6 @@ PRODUCT_COPY_FILES += \
     vendor/moto/shamu/proprietary/etc/permissions/rcsservice.xml:system/etc/permissions/rcsservice.xml \
     vendor/moto/shamu/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/moto/shamu/proprietary/etc/sysconfig/whitelist_com.android.omadm.service.xml:system/etc/sysconfig/whitelist_com.android.omadm.service.xml \
-    vendor/moto/shamu/proprietary/etc/thermal-engine-shamu.conf:system/etc/thermal-engine-shamu.conf \
     vendor/moto/shamu/proprietary/lib/hw/audio.motvr.default.so:system/lib/hw/audio.motvr.default.so \
     vendor/moto/shamu/proprietary/vendor/lib/hw/sound_trigger.primary.shamu.so:system/vendor/lib/hw/sound_trigger.primary.shamu.so \
     vendor/moto/shamu/proprietary/lib/libadspd-jni.so:system/lib/libadspd-jni.so \
