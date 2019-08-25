@@ -60,6 +60,7 @@ PRODUCT_COPY_FILES += \
     vendor/moto/shamu/proprietary/lib/libdmengine.so:system/lib/libdmengine.so \
     vendor/moto/shamu/proprietary/lib/libdmjavaplugin.so:system/lib/libdmjavaplugin.so \
     vendor/moto/shamu/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
+    vendor/moto/shamu/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
     vendor/moto/shamu/proprietary/vendor/lib/soundfx/libspeakerbundle.so:system/vendor/lib/soundfx/libspeakerbundle.so \
     vendor/moto/shamu/proprietary/vendor/firmware/VRGain.bin:system/vendor/firmware/VRGain.bin \
     vendor/moto/shamu/proprietary/vendor/firmware/a420_pfp.fw:system/vendor/firmware/a420_pfp.fw \
