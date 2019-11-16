@@ -137,7 +137,7 @@ PRODUCT_COPY_FILES += \
     vendor/moto/potter/proprietary/vendor/lib/libcamerabgprocservice.so:system/lib/libcamerabgprocservice.so \
     vendor/moto/potter/proprietary/lib/libfamily_photo.so:system/lib/libfamily_photo.so \
     vendor/moto/potter/proprietary/vendor/lib/libjscore.so:system/lib/libjscore.so \
-    vendor/moto/potter/proprietary/vendor/lib/libjustshoot.so:system/lib/libjustshoot.so \
+    vendor/moto/potter/proprietary/vendor/lib/libjustshoot.so:system/vendor/lib/libjustshoot.so \
     vendor/moto/potter/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
     vendor/moto/potter/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
     vendor/moto/potter/proprietary/vendor/lib64/libloc_api_v02.so:system/vendor/lib64/libloc_api_v02.so \
@@ -167,7 +167,7 @@ PRODUCT_COPY_FILES += \
     vendor/moto/potter/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/moto/potter/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/moto/potter/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    vendor/moto/potter/proprietary/vendor/firmware/libpn548ad_fw.so:system/lib/libpn548ad_fw.so \
+    vendor/moto/potter/proprietary/lib/libpn548ad_fw.so:system/lib/libpn548ad_fw.so \
     vendor/moto/potter/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/moto/potter/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/moto/potter/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -1215,7 +1215,6 @@ PRODUCT_COPY_FILES += \
     vendor/moto/potter/proprietary/vendor/firmware/a506_zap.b02:system/vendor/firmware/a506_zap.b02 \
     vendor/moto/potter/proprietary/vendor/firmware/a506_zap.elf:system/vendor/firmware/a506_zap.elf \
     vendor/moto/potter/proprietary/vendor/firmware/a506_zap.mdt:system/vendor/firmware/a506_zap.mdt
-
 
 PRODUCT_COPY_FILES += \
     vendor/moto/potter/proprietary/bin/wfdservice:system/bin/wfdservice \
